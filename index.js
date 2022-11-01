@@ -9,7 +9,7 @@ function game() {
     }
 
     function playerPrompt() {
-        let prompt = window.prompt("Enter 'Rock', 'Pape' or 'Scissors :");
+        let prompt = window.prompt("Enter 'Rock', 'Paper' or 'Scissors :");
         while(!Object.keys(items).includes(prompt)) {
             prompt = window.prompt("Please enter 'Rock', 'Paper', or 'Scissors' only:");
         }
